@@ -55,7 +55,7 @@ const Sidebar = () => {
           </div>
           <div>
             <h1 className="font-heading text-lg font-semibold text-sidebar-foreground">
-              EstateFlowssss
+              EstateFlowss
             </h1>
             <p className="text-xs text-sidebar-foreground/60">Real Estate CRM</p>
           </div>
