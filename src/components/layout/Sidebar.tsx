@@ -34,6 +34,12 @@ const Sidebar = () => {
       roles: ['sales'],
     },
     {
+      name: 'Schedule',
+      href: '/schedule',
+      icon: Building2,
+      roles: ['super_admin', 'supervisor', 'sales'],
+    },
+    {
       name: 'User Management',
       href: '/users',
       icon: UserPlus,
