@@ -7,9 +7,8 @@ interface StatusBadgeProps {
 
 const statusConfig: Record<LeadStatus, { label: string; className: string }> = {
   new: { label: 'New', className: 'status-new' },
-  contacted: { label: 'Contacted', className: 'status-contacted' },
-  qualified: { label: 'Qualified', className: 'status-qualified' },
-  negotiation: { label: 'Negotiation', className: 'status-negotiation' },
+  in_progress: { label: 'In Progress', className: 'status-in-progress' },
+  promising: { label: 'Promising', className: 'status-promising' },
   won: { label: 'Won', className: 'status-won' },
   lost: { label: 'Lost', className: 'status-lost' },
 };

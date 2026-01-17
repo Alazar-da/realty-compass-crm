@@ -122,16 +122,12 @@
     @apply bg-info/10 text-info;
   }
 
-  .status-contacted {
+  .status-in-progress {
     @apply bg-warning/10 text-warning;
   }
 
-  .status-qualified {
+  .status-promising {
     @apply bg-primary/10 text-primary;
-  }
-
-  .status-negotiation {
-    @apply bg-accent/20 text-accent-foreground;
   }
 
   .status-won {
