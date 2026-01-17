@@ -105,12 +105,12 @@ const Leads = () => {
                   Add Lead
                 </Button>
               </DialogTrigger>
-              <DialogContent className="max-w-md overflow-y-auto py-5">
+              <DialogContent className="max-w-md overflow-y-auto">
         
                 <DialogHeader>
                   <DialogTitle>Add New Lead</DialogTitle>
                 </DialogHeader>
-                <div className="space-y-4 py-5 h-96">
+                <div className="space-y-4 h-96 pb-5">
                   <div className="space-y-2">
                     <Label>Full Name</Label>
                     <Input
